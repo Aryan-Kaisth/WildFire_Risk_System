@@ -1,0 +1,5 @@
+[2025-10-10 15:39:15,019] 51 root - INFO - Entered the load_object method of utils
+[2025-10-10 15:39:15,755] 58 root - INFO - Exited the load_object method of utils
+[2025-10-10 15:39:15,755] 51 root - INFO - Entered the load_object method of utils
+[2025-10-10 15:39:15,946] 58 root - INFO - Exited the load_object method of utils
+[2025-10-10 15:39:15,947] 22 root - INFO - \u2705 PredictionPipeline initialized successfully.

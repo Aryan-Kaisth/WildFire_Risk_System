@@ -1,0 +1,106 @@
+columns:
+  - latitude: float
+  - longitude: float
+  - Wildfire: int
+  - pr: float
+  - rmax: float
+  - rmin: float
+  - sph: float
+  - srad: float
+  - tmmn: float
+  - tmmx: float
+  - vs: float
+  - bi: float
+  - fm100: float
+  - fm1000: float
+  - erc: float
+  - etr: float
+  - pet: float
+  - vpd: float
+  - year: int
+  - month: int
+  - day: int
+  - dayofweek: int
+  - quarter: int
+  - dayofyear: int
+  - weekofyear: int
+  - is_weekend: int
+  - trange: float
+  - rrange: float
+  - fm_ratio: float
+  - pet_minus_etr: float
+  - trange_srad: float
+  - vpd_tmmx: float
+  - fm_wind: float
+  - pr_rmax_ratio: float
+  - fm_diff: float
+
+numerical_columns:
+  - latitude
+  - longitude
+  - pr
+  - rmax
+  - rmin
+  - sph
+  - srad
+  - tmmn
+  - tmmx
+  - vs
+  - bi
+  - fm100
+  - fm1000
+  - erc
+  - etr
+  - pet
+  - vpd
+  - year
+  - month
+  - day
+  - dayofweek
+  - quarter
+  - dayofyear
+  - weekofyear
+  - is_weekend
+  - trange
+  - rrange
+  - fm_ratio
+  - pet_minus_etr
+  - trange_srad
+  - vpd_tmmx
+  - fm_wind
+  - pr_rmax_ratio
+  - fm_diff
+
+drop_columns: datetime
+
+target_column: Wildfire
+
+transform_columns:
+  - latitude
+  - longitude
+  - pr
+  - rmax
+  - rmin
+  - sph
+  - srad
+  - tmmn
+  - tmmx
+  - vs
+  - bi
+  - fm100
+  - fm1000
+  - erc
+  - etr
+  - pet
+  - vpd
+  - dayofyear
+  - weekofyear
+  - trange
+  - rrange
+  - fm_ratio
+  - pet_minus_etr
+  - trange_srad
+  - vpd_tmmx
+  - fm_wind
+  - pr_rmax_ratio
+  - fm_diff
