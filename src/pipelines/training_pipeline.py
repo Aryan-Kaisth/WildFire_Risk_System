@@ -7,7 +7,7 @@ def run_training_pipeline(raw_data_path: str):
     """
     Runs the full training pipeline:
     1. Data ingestion
-    2. Data transformation + SMOTE
+    2. Data transformation
     3. Model training
     """
 
@@ -82,3 +82,4 @@ if __name__ == "__main__":
 
     except Exception as e:
         print("❌ Error during full pipeline execution:", e)
+
